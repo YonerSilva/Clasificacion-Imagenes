@@ -8,6 +8,8 @@ function mostrar() {
         reader.onloadend = function () {
             document.getElementById("img").src = reader.result;
         }
+    }else{
+        document.getElementById("img").src = "";
     }
 }
 
