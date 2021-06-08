@@ -31,6 +31,7 @@ function buttonChange(){
             });
         });
     }else{
+        document.getElementById('contenedor_predicciones').hidden = true;
         alert('¡Error!, inserte un archivo primero.');
     }
 }
