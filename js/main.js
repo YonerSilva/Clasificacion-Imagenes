@@ -15,6 +15,7 @@ function buttonChange(){
     const img_path = document.getElementById('img').src;
     const filename = img_path.replace(/^.*[\\\/]/, '');
     if(filename != ''){
+        document.getElementById('contenedor_predicciones').hidden = false;
         // Load the model.
         mobilenet.load().then(model => {
             // Classify the image.
