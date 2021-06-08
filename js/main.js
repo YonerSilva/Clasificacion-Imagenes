@@ -10,6 +10,7 @@ function mostrar() {
         }
     }else{
         document.getElementById("img").src = "";
+        document.getElementById('file').style = 'background-color: red;';
     }
 }
 
