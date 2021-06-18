@@ -29,8 +29,8 @@ function buttonChange(){
                 document.getElementById('col_1-3').innerHTML = array[2].className;
 
                 document.getElementById('col_2-1').innerHTML = parseFloat(array[0].probability).toFixed(4);
-                document.getElementById('col_2-2').innerHTML = parseFloat(array[0].probability).toFixed(4);
-                document.getElementById('col_2-3').innerHTML = parseFloat(array[0].probability).toFixed(4);
+                document.getElementById('col_2-2').innerHTML = parseFloat(array[1].probability).toFixed(4);
+                document.getElementById('col_2-3').innerHTML = parseFloat(array[2].probability).toFixed(4);
             });
         });
     }else{
